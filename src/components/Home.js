@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import NoteContext from '../context/NoteContext'
 import Notes from './Notes'
 
 
-const Home = () => {
-
+const Home = (props) => {
+    const context = useContext(NoteContext)
+    const { darkmode } = context;
+    // const { showAlert } = props
     return (
-        <div className='container'>
-            <Notes/>
+        <div className={`container text-${darkmode ? "light" : "dark"} bg-${darkmode ? "dark" : "light"}`}>
+            <Notes />
         </div>
     )
 }

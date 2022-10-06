@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+/* alert div */
+.alert{
+  border-radius: 0%;
+}
+
+/* card section */
