@@ -8,7 +8,7 @@ const Noteitem = (props) => {
 
   return (
     <>
-      <div className="col-3 my-3  ">
+      <div className="col-md-4 col-sm-6  my-3  ">
         <div className={`card border-${darkmode ? "light" : "dark"}  bg-${darkmode ? "dark" : "light"} text-${!darkmode ? "dark" : "light"}`}>
           <div className="card-body">
             <h5 className="card-title">{note.title}</h5>
