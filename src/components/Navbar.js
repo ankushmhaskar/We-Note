@@ -43,7 +43,7 @@ const Navbar = () => {
                         {/* darkmode button */}
                         <div className="form-check form-switch mx-2 my-md-2">
                             <input className="form-check-input" type="checkbox" role="switch" id="setModes" onClick={setMode} />
-                            <label className="form-check-label" htmlFor="setmodes">Daekmode</label>
+                            <label className="form-check-label" htmlFor="setmodes">Darkmode</label>
                         </div>
                     </div>
                 </div>
