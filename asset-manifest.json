@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/We-Note/static/css/main.743c1604.css",
+    "main.js": "/We-Note/static/js/main.fea52699.js",
+    "static/js/787.e1e25ce8.chunk.js": "/We-Note/static/js/787.e1e25ce8.chunk.js",
+    "index.html": "/We-Note/index.html",
+    "main.743c1604.css.map": "/We-Note/static/css/main.743c1604.css.map",
+    "main.fea52699.js.map": "/We-Note/static/js/main.fea52699.js.map",
+    "787.e1e25ce8.chunk.js.map": "/We-Note/static/js/787.e1e25ce8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.743c1604.css",
+    "static/js/main.fea52699.js"
+  ]
+}
